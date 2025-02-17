@@ -35,14 +35,8 @@ This folder contains the datasets used in the analysis of energy outcomes based 
 - **Figure 1**: Correlations between the key indicators using a heatmap.  
   ![Figure 1](../figure/Figure1.png)
 
-- **Figures 2(a) to 2(d)**: Distribution of the main indicators (energy accessibility, CO2 emissions, energy efficiency, renewable energy).  
-  ![Figure 2(a)](../figures/scatter_accessibility.png)  
-  ![Figure 2(b)](../figures/scatter_co2_gdp.png)  
-  ![Figure 2(c)](../figures/distribution_efficiency.png)  
-  ![Figure 2(d)](../figures/distribution_renewable_energy.png)
-
-- **Figure 2(e)**: Heatmap showing missing values across the years.  
-  ![Figure 2(e)](../figures/heatmap_missing_values.png)
+- **Figures 2**: Distribution of the main indicators (energy accessibility, CO2 emissions, energy efficiency, renewable energy), and a heatmap showing missing values across the years.
+  ![Figure 1](../figure/Figure2.png)
 
 ## License
 
