@@ -1,10 +1,10 @@
 ## 💻 Code Overview
 
-This folder contains Jupyter notebooks analyzing global development and energy access trends.  
+This folder contains Jupyter notebooks analysing global development and energy access trends.  
 
 ### 1️⃣ EDA & Countries Development Clustering (2024)
 - Data cleaning & preprocessing  
-- Visualizing key development and energy variables  
+- Visualising key development and energy variables  
 - K-means clustering to group countries by development patterns  
 
 ### 2️⃣ Energy Analysis (2024)
@@ -19,7 +19,7 @@ This folder contains Jupyter notebooks analyzing global development and energy a
 
 --- 
 
-#### 📊 Visualization Notes
+#### 📊 Visualisation Notes
 - Some figures use **Altair** for interactivity (Vega-Lite)  
 - Figures are **saved separately** and displayed in the notebooks using `display()`  
 
