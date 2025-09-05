@@ -16,7 +16,7 @@ Predictions for 2030 indicate partial progress toward UN goals 🎯.
 
 ---
 
-### [Clustering Comparison Extension (2025)](Clustering_comparison_results.md)
+### [⚖️ Clustering Comparison Extension (2025)](Clustering_comparison_results.md)
 
 Comparison of three different clustering methods, evaluating with metrics:
 
