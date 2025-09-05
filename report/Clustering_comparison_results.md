@@ -3,7 +3,7 @@
 This extension study focuses on comparing clustering methods for countries' development levels using energy-related indicators.
 
 ### Validation Metrics within Clustering Methods 📊
-<img src="../figure/clustering_metrics_comparison.png" width="650">
+<img src="../figure/clustering_metrics_comparison.png" width="800">
 
 #### Key Findings
 - ✅ **K-Means:** Best performance for 4–5 clusters across all metrics.
@@ -14,14 +14,14 @@ This extension study focuses on comparing clustering methods for countries' deve
 
 Comparison of K-Means and GMM clustering with 5 clusters.
 
-<img src="../figure/km_gmm_5.png" width="650">
+<img src="../figure/km_gmm_5.png" width="800">
 
 - ✨ **GMM:** Produces softer, probabilistic clusters.
 - 📊 **K-Means:** Hard assignment, more distinct clusters.
 
 **Indicator means across clusters show:**
 
-<img src="../figure/rader_plot.png" width="900">
+<img src="../figure/rader_plot.png" width="1000">
 
 - Apart from **Voice and Accountability** in Cluster 0, most indicators across all clusters are quite similar between K-Means and GMM.
 - Some clusters show minor differences in indicator means depending on the clustering method.
