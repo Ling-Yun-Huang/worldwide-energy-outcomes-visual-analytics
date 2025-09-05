@@ -1,31 +1,27 @@
-# Clustering Comparison Results (2025)
+## Clustering Comparison Results (2025)
 
 This extension study focuses on comparing clustering methods for countries' development levels using energy-related indicators.
 
-## Methods Compared
-- 🔹 **K-Means**: Hard clustering, interpretable, good balance between group separation and stability.
-- 🔹 **Agglomerative Hierarchical Clustering**: Dendrogram-based, less stable with 5 clusters.
-- 🔹 **Gaussian Mixture Model (GMM)**: Soft clustering, allows probabilistic group membership, slightly lower validation scores.
+### Validation Metrics within Clustering Methods 📊
+<img src="../figure/clustering_metrics_comparison.png" width="650">
 
-## Validation Metrics
-| Metric | Description | Best Method |
-|--------|------------|-------------|
-| 🧩 Silhouette | Measures cohesion vs separation | K-Means |
-| 📏 Calinski–Harabasz | Higher is better, measures cluster separation | K-Means |
-| 🔍 Davies–Bouldin | Lower is better, measures cluster similarity | K-Means |
+#### Key Findings
+- ✅ **K-Means:** Best performance for 4–5 clusters across all metrics.
+- ⚠️ **GMM:** Similar to K-Means but slightly lower scores.
+- ❌ **Agglomerative:** Less stable and lower overall performance.
 
-## Key Findings
-- ✅ **K-Means (5 clusters)** provides the most interpretable and balanced clustering.
-- ⚠️ Agglomerative clustering shows instability in cluster assignment, especially for small countries.
-- 🌫️ GMM captures overlapping clusters but has slightly lower validation scores.
-- 📊 Comparative plots reveal differences in cluster centers, indicator patterns, and relative distributions.
+### K-Means vs. GMM 🔄
 
-## Observations
-- Group characteristics remain broadly consistent with the original project (2024).
-- Some small or outlier countries may shift clusters depending on method.
-- Visual analysis highlights where methods agree vs diverge, helping choose clustering strategy for policy or energy analysis.
+Comparison of K-Means and GMM clustering with 5 clusters.
 
-## Visual Summary
-- 📈 Cluster comparison plots
-- 🌍 Map of clusters for K-Means and GMM
-- 🔹 Radar plots (Z-score) to show indicator differences per group
+<img src="../figure/kmm_gmm_5.png" width="650">
+
+- ✨ **GMM:** Produces softer, probabilistic clusters.
+- 📊 **K-Means:** Hard assignment, more distinct clusters.
+
+**Indicator means across clusters show:**
+
+<img src="../figure/rader_plot.png" width="650">
+
+- Apart from **Voice and Accountability**, most indicators in Cluster 0 are similar between the two methods.
+- Other clusters show slight differences in means depending on the method used.
