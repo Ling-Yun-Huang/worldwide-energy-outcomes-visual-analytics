@@ -1,21 +1,27 @@
-# **Code Overview**
+## 💻 Code Overview
 
-This folder includes two Jupyter notebooks that analyze global development and energy access trends.
+This folder contains Jupyter notebooks analysing global development and energy access trends.  
 
-## **1. Exploratory Data Analysis & Countries Development Clustering**
-- Performs data cleaning and preprocessing
-- Visualizes key development-related and energy-related variables
-- Applies k-means clustering techniques to group countries based on their development patterns
+### 1️⃣ EDA & Countries Development Clustering (2024)
+- Data cleaning & preprocessing  
+- Visualising key development and energy variables  
+- K-means clustering to group countries by development patterns  
 
-## **2. Energy Analysis**
-- Analyzes historical energy access trends
-- Uses statistical and machine learning models to forecast energy access rates until 2030
-- Implements Mixed Effects Models to account for grouped country-level variations
+### 2️⃣ Energy Analysis (2024)
+- Historical energy access trend analysis  
+- Forecasting energy access rates until 2030 using statistical & ML models  
+- Mixed Effects Models to account for country-level variations  
 
-## 📊 **Visualization Notes**
-- Some figures in the notebooks are generated using **Altair**. Since Altair creates interactive visualizations that rely on Vega-Lite, the figures are **not stored as static images**.
-- To ensure the figures are displayed correctly, they are **saved separately and loaded using `display()`** in the notebook.
+### 3️⃣ Clustering Methods Comparison & Extension (2025)
+- **Objective**: Compare clustering methods for grouping countries by development level  
+- **Methods Compared**: K-means, Agglomerative Hierarchical Clustering, Gaussian Mixture Model (GMM)  
+- **Validation Metrics**: Silhouette, Calinski-Harabasz, Davies-Bouldin  
 
-## 📜 **License**
-This project is licensed under the [**MIT License**](../LICENSE).  
+--- 
 
+#### 📊 Visualisation Notes
+- Some figures use **Altair** for interactivity (Vega-Lite)  
+- Figures are **saved separately** and displayed in the notebooks using `display()`  
+
+#### 📜 License
+Licensed under the [**MIT License**](../LICENSE)
